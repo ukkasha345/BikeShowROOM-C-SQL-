@@ -1,0 +1,28 @@
+﻿<Window x:Class="BikeShowRoom.Branches"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Branches" Height="390" Width="510" ResizeMode="NoResize">
+    <Grid >
+
+        <Grid.Background>
+            <ImageBrush  ImageSource="C:\Users\ukasha\Desktop\DB Project\BikeShowRoom\images\Branches.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid Margin="0,3,0,-3">
+            <DataGrid BorderBrush="Black" BorderThickness="2"  HorizontalAlignment="Left" Margin="284,84,0,0" VerticalAlignment="Top" Height="259" Width="214" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}"/>
+            <Button Content="View Branches"  BorderBrush="Black" BorderThickness="2"  HorizontalAlignment="Left" Margin="284,44,0,0" VerticalAlignment="Top"  FontFamily="Times new roman" FontWeight="Bold" FontSize="15" Cursor="Hand" Width="214" Background="#FFB22020" Height="35" Foreground="White"/>
+            <Button Content="Go Back" HorizontalAlignment="Left"  BorderBrush="Black" BorderThickness="2"  Margin="10,10,0,0" VerticalAlignment="Top" Width="61" Height="24" FontFamily="Times new roman" FontWeight="Bold" Background="#FFB22020" Cursor="Hand" FontSize="14" Click="Button_Click" Foreground="White" />
+            <TextBox Name="branchIdTxt" HorizontalAlignment="Left" Height="23" BorderBrush="Black"  Margin="126,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="128" RenderTransformOrigin="0.5,0.5" >
+
+            </TextBox>
+            <TextBox Name="branchNameTxt"  HorizontalAlignment="Left" Height="23" Margin="126,160,0,0" BorderBrush="Black" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
+            <Label Content="Branch Id" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" FontFamily="Times new roman" FontSize="13" Background="CadetBlue" FontWeight="Bold" BorderThickness="1" BorderBrush="Black"  />
+            <Label Content="Branch Name :" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" FontFamily="Times new roman" FontSize="13" Background="CadetBlue" BorderThickness="1" BorderBrush="Black" Width="94" FontWeight="Bold"/>
+            <Button Content="Insert" HorizontalAlignment="Left"  Margin="10,203,0,0" VerticalAlignment="Top" Width="245" Height="37" FontFamily="Times new roman" FontSize="15" Background="#FFB22020" FontWeight="Bold" BorderThickness="2" BorderBrush="Black" Cursor="Hand" Foreground="White"/>
+            <Button Content="Delete" HorizontalAlignment="Left" Margin="10,245,0,0" VerticalAlignment="Top" Width="245" Height="39" FontFamily="Times new roman" FontSize="15" Background="#FFB22020" FontWeight="Bold" BorderThickness="2" BorderBrush="Black" Cursor="Hand" Foreground="White"/>
+            <Button Content="Update" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="245" Height="39" FontFamily="Times new roman" FontSize="15" Background="#FFB22020" FontWeight="Bold" BorderThickness="2" BorderBrush="Black" Cursor="Hand" Foreground="White"/>
+        </Grid>
+
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,44 @@
+﻿<Window x:Class="BikeShowRoom.Employees"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Employees" Height="500" Width="550" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\ukasha\Desktop\DB Project\BikeShowRoom\images\Employee.jpg"/>
+    </Window.Background>
+    <Grid>
+
+        <DataGrid HorizontalAlignment="Left" Margin="8,271,0,0" VerticalAlignment="Top" Height="191" Width="524" BorderBrush="Black" BorderThickness="2"/>
+        <TextBox Name="EmpDatJoinTxt" HorizontalAlignment="Left" Height="23" Margin="435,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="EmpContactTxt" HorizontalAlignment="Left" Height="23" Margin="435,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="EmpfNamTxt" HorizontalAlignment="Left" Height="23" Margin="141,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="EmplNamTxt" HorizontalAlignment="Left" Height="23" Margin="141,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="EmpAgeTxt" HorizontalAlignment="Left" Height="23" Margin="141,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="EmpAdresTxt" HorizontalAlignment="Left" Height="23" Margin="435,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="EmpBranchTxt" HorizontalAlignment="Left" Height="23" Margin="435,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" BorderBrush="Black" BorderThickness="1" RenderTransformOrigin="0.5,0.5"/>
+        <TextBox Name="EmpExpernceTxt" HorizontalAlignment="Left" Height="23" Margin="141,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="EmpIdTxt" HorizontalAlignment="Left" Height="23" Margin="141,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57" BorderBrush="Black" BorderThickness="1" RenderTransformOrigin="0.789,0.565"/>
+        <TextBox Name="EmpCnicTxt" HorizontalAlignment="Left" Height="23" Margin="435,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="EmpSalaryTxt" HorizontalAlignment="Left" Height="23" Margin="242,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" BorderBrush="Black" BorderThickness="1" RenderTransformOrigin="0.5,0.5"/>
+
+
+        <Label Content="Employe ID:" HorizontalAlignment="Left" Margin="8,68,0,0" VerticalAlignment="Top" FontFamily="Times new roman" FontWeight="Bold" FontSize="13"/>
+        <Label Content="Employe fName:" HorizontalAlignment="Left" Margin="8,92,0,0" VerticalAlignment="Top" FontFamily="Times new roman" FontWeight="Bold" FontSize="13"/>
+        <Label Content="Employe lName:" HorizontalAlignment="Left" Margin="9,120,0,0" VerticalAlignment="Top" FontFamily="Times new roman" FontWeight="Bold" FontSize="13"/>
+        <Label Content="Employe Age:" HorizontalAlignment="Left" Margin="8,153,0,0" VerticalAlignment="Top" FontFamily="Times new roman" FontWeight="Bold" FontSize="13"/>
+        <Label Content="Employe Experience:" HorizontalAlignment="Left" Margin="8,179,0,0" VerticalAlignment="Top" FontFamily="Times new roman" FontWeight="Bold" FontSize="13" Width="128"/>
+        <Label Content="Employe DateJoin:" HorizontalAlignment="Left" Margin="323,63,0,0" VerticalAlignment="Top" FontFamily="Times new roman" FontWeight="Bold" FontSize="13"/>
+        <Label Content="Employe Address:" HorizontalAlignment="Left" Margin="323,92,0,0" VerticalAlignment="Top" FontFamily="Times new roman" FontWeight="Bold" FontSize="13"/>
+        <Label Content="Employe CNIC:" HorizontalAlignment="Left" Margin="323,125,0,0" VerticalAlignment="Top" FontFamily="Times new roman" FontWeight="Bold" FontSize="13"/>
+        <Label Content="Employe Contact:" HorizontalAlignment="Left" Margin="323,156,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" FontFamily="Times new roman" FontWeight="Bold" FontSize="13"/>
+        <Label Content="Employe Branch:" HorizontalAlignment="Left" Margin="322,182,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" FontFamily="Times new roman" FontWeight="Bold" FontSize="13"/>
+        <Label Content="Salary:" HorizontalAlignment="Left" Margin="193,182,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" FontFamily="Times new roman" FontWeight="Bold" FontSize="13" Width="49" Height="25"/>
+
+        <Button Content="Insert" HorizontalAlignment="Left" Margin="9,229,0,0" VerticalAlignment="Top" Width="93" Height="32" FontFamily="Times new roman" FontSize="15" FontWeight="Bold" BorderBrush="Black" BorderThickness="2" Background="DarkSalmon" Cursor="Hand"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="107,229,0,0" VerticalAlignment="Top" Width="96" Height="32" FontFamily="Times new roman" FontSize="15" FontWeight="Bold" BorderBrush="Black" BorderThickness="2" Background="DarkSalmon" Cursor="Hand"/>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="208,229,0,0" VerticalAlignment="Top" Width="88" Height="32" FontFamily="Times new roman" FontSize="15" FontWeight="Bold" BorderBrush="Black" BorderThickness="2" Background="DarkSalmon" Cursor="Hand"/>
+        <Button Content="View Employes" HorizontalAlignment="Left" Margin="301,229,0,0" VerticalAlignment="Top" Width="119" Height="32" FontFamily="Times new roman" FontSize="15" FontWeight="Bold" BorderBrush="Black" BorderThickness="2" Background="DarkSalmon" Cursor="Hand"/>
+        <Button Content="Clear" ToolTip="To Clear TextBoxes" HorizontalAlignment="Left" Margin="425,229,0,0" VerticalAlignment="Top" Width="93" Height="32" FontFamily="Times new roman" FontSize="15" FontWeight="Bold" BorderBrush="Black" BorderThickness="2" Background="DarkSalmon" Cursor="Hand"/>
+        <Button Content="GO Back" HorizontalAlignment="Left" Margin="8,21,0,0" VerticalAlignment="Top" Width="93" Height="32" FontFamily="Times new roman" FontSize="15" FontWeight="Bold" BorderBrush="Black" BorderThickness="2" Background="DarkSalmon" Cursor="Hand" Click="Button_Click"/>
+       
+    </Grid>
+</Window>

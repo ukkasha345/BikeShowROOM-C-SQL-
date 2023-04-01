@@ -1,0 +1,41 @@
+﻿<Window x:Class="BikeShowRoom.Buyers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Buyers" Height="450" Width="550" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\ukasha\Desktop\DB Project\BikeShowRoom\images\buyers.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <TextBox Name="BuyrIdTxt" HorizontalAlignment="Left" Height="27" Margin="122,62,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="119" BorderBrush="Black" BorderThickness="1" />
+        <TextBox Name="BuyrFnamTxt" HorizontalAlignment="Left" Height="27" Margin="122,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="BuyrLnamTxt" HorizontalAlignment="Left" Height="26" Margin="122,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="BuyrAgeTxt" HorizontalAlignment="Left" Height="26" Margin="122,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="BuyrCnicTxt" HorizontalAlignment="Left" Height="26" Margin="371,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="BuyrCntctTxt" HorizontalAlignment="Left" Height="27" Margin="371,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="BuyrAdrsTxt" HorizontalAlignment="Left" Height="27" Margin="371,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox Name="Buyr_FK_EmpTxt" HorizontalAlignment="Left" Height="27" Margin="371,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" BorderBrush="Black" BorderThickness="1"/>
+
+        <Label Content="ID:" HorizontalAlignment="Left" Margin="29,62,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="74" FontFamily="times new roman" FontSize="14" FontWeight="Bold" />
+        <Label Content="First Name:" HorizontalAlignment="Left" Margin="29,96,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="83" FontFamily="times new roman" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Last Name:" HorizontalAlignment="Left" Margin="29,127,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="83" FontFamily="times new roman" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Age:" HorizontalAlignment="Left" Margin="29,158,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="74" FontFamily="times new roman" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Contact:" HorizontalAlignment="Left" Margin="277,94,0,0" VerticalAlignment="Top" Foreground="White" Height="31" Width="63" FontFamily="times new roman" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Address:" HorizontalAlignment="Left" Margin="277,126,0,0" VerticalAlignment="Top" Foreground="White" Height="30" Width="63" FontFamily="times new roman" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Buying From:" HorizontalAlignment="Left" Margin="277,158,0,0" VerticalAlignment="Top" Foreground="White" Height="31" Width="89" FontFamily="times new roman" FontSize="14" FontWeight="Bold"/>
+        <Label Content="CNIC:" HorizontalAlignment="Left" Margin="277,63,0,0" VerticalAlignment="Top" Foreground="White" Height="31" Width="63" FontFamily="times new roman" FontSize="14" FontWeight="Bold" />
+
+
+        <Button Content="Insert" HorizontalAlignment="Left" Margin="29,202,0,0" VerticalAlignment="Top" Width="83" Height="37" BorderBrush="Black" BorderThickness="2" Background="DarkKhaki" FontFamily="times new roman" FontSize="15" FontWeight="Bold" Cursor="Hand"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="133,202,0,0" VerticalAlignment="Top" Width="83" Height="37" BorderBrush="Black" BorderThickness="2" Background="DarkKhaki" FontFamily="times new roman" FontSize="15" FontWeight="Bold" Cursor="Hand"/>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="236,202,0,0" VerticalAlignment="Top" Width="84" Height="37" BorderBrush="Black" BorderThickness="2" Background="DarkKhaki" FontFamily="times new roman" FontSize="15" FontWeight="Bold" Cursor="Hand"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="339,202,0,0" VerticalAlignment="Top" Width="83" Height="37" BorderBrush="Black" BorderThickness="2" Background="DarkKhaki" FontFamily="times new roman" FontSize="15" FontWeight="Bold" Cursor="Hand"/>
+        <Button Content="View" HorizontalAlignment="Left" Margin="443,202,0,0" VerticalAlignment="Top" Width="83" Height="37" BorderBrush="Black" BorderThickness="2" Background="DarkKhaki" FontFamily="times new roman" FontSize="15" FontWeight="Bold" Cursor="Hand"/>
+        <Button Content="Go Back" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" Width="78" Height="36" BorderBrush="Black" BorderThickness="2" Background="#FFCBC684" FontFamily="times new roman" FontSize="15" FontWeight="Bold" Cursor="Hand" Click="Button_Click_1"/>
+
+        <DataGrid HorizontalAlignment="Left" Margin="25,244,0,0" VerticalAlignment="Top" Height="167" Width="497" BorderBrush="Black" BorderThickness="2"/>
+
+    </Grid>
+</Window>
+
+    
